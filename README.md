@@ -14,5 +14,5 @@ then:
 ```
 
 or:
-```aws lambda update-alias --function-name $(someProcessThatOutputsARN | dequalify) -- name PROD --function-version $(someProcessThatOutputsARN | dequalify -q)
+```aws lambda update-alias --function-name $(cat ARN | dequalify) --name PROD --function-version $(cat ARN | dequalify -q)
 ```
