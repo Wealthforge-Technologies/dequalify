@@ -5,9 +5,13 @@ I use it to de-qualify fully qualified ARNs of lambdas.
 
 > you can add `-q` to instead return what qualifies
 
-```npm install -g dequalify```
+```npm install -g dequalify
+```
 
-then: 
-```someProcessThatOutputsARN | dequalify | whatever output```
+then:
+```someProcessThatOutputsARN | dequalify | whatever output
+```
 
-or: ```aws lambda update-alias --function-name $(someProcessThatOutputsARN | dequalify) -- name PROD --function-version $(someProcessThatOutputsARN | dequalify -q)```
+or:
+```aws lambda update-alias --function-name $(someProcessThatOutputsARN | dequalify) -- name PROD --function-version $(someProcessThatOutputsARN | dequalify -q)
+```
