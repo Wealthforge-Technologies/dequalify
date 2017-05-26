@@ -1,0 +1,22 @@
+{
+  "name": "dequalify",
+  "version": "1.0.0",
+  "description": "Take a fully qualified lambda ARN and output it without the version. ",
+  "main": "dequalify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text",
+    "parse",
+    "ARN",
+    "AWS",
+    "lambda",
+    "Amazon"
+  ],
+  "bin": {
+    "dequalify": "./dequalify.js"
+},
+  "author": "Andrew Batz",
+  "license": "MIT"
+}
