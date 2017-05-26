@@ -5,8 +5,9 @@ I use it to de-qualify fully qualified ARNs of lambdas.
 
 > you can add `-q` to instead return what qualifies
 
-```npm install -g dequalify
+```npm install -g
 ```
+from within where you clone this
 
 then:
 ```someProcessThatOutputsARN | dequalify | whatever output
